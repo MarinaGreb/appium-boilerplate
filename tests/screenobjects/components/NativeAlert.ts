@@ -3,6 +3,8 @@ const SELECTORS = {
         ALERT_TITLE: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]',
         ALERT_MESSAGE: '*//android.widget.TextView[@resource-id="android:id/message"]',
         ALERT_BUTTON: '*//android.widget.Button[@text="{BUTTON_TEXT}"]',
+        error_number_characters: '//android.widget.ScrollView[@content-desc="Login-screen"]//android.widget.TextView[2]',
+        error_different_passwords: '//android.widget.ScrollView[@content-desc="Login-screen"]//android.widget.TextView[3]',
     },
     IOS: {
         ALERT: '-ios predicate string:type == \'XCUIElementTypeAlert\'',
